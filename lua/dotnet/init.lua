@@ -1,18 +1,18 @@
 -- TODO remove
-package.loaded['nvim-dotnet.queries'] = nil
-package.loaded['nvim-dotnet.utils'] = nil
-package.loaded['nvim-dotnet.global'] = nil
-package.loaded['nvim-dotnet.solution'] = nil
-package.loaded['nvim-dotnet.tests'] = nil
-package.loaded['nvim-dotnet.projects'] = nil
-package.loaded['nvim-dotnet.comment'] = nil
-local utils = require('nvim-dotnet.utils')
-local log = require('nvim-dotnet.log')
-local global_state = require('nvim-dotnet.global')
-local solution = require('nvim-dotnet.solution')
-local tests = require('nvim-dotnet.tests')
-local projectsns = require('nvim-dotnet.projects')
-local commentns = require('nvim-dotnet.comment')
+package.loaded['dotnet.queries'] = nil
+package.loaded['dotnet.utils'] = nil
+package.loaded['dotnet.global'] = nil
+package.loaded['dotnet.solution'] = nil
+package.loaded['dotnet.tests'] = nil
+package.loaded['dotnet.projects'] = nil
+package.loaded['dotnet.comment'] = nil
+local utils = require('dotnet.utils')
+local log = require('dotnet.log')
+local global_state = require('dotnet.global')
+local solution = require('dotnet.solution')
+local tests = require('dotnet.tests')
+local projectsns = require('dotnet.projects')
+local commentns = require('dotnet.comment')
 
 
 local M = {};
@@ -83,7 +83,7 @@ M.test = function()
 					col = 0,
 					message = message,
 					severity = severity,
-					source = "nvim-dotnet",
+					source = "dotnet",
 				})
 			end
 		end

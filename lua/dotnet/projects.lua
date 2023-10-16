@@ -1,6 +1,6 @@
-local utils = require('nvim-dotnet.utils')
-local queries = require("nvim-dotnet.queries")
-local log = require('nvim-dotnet.log')
+local utils = require('dotnet.utils')
+local queries = require("dotnet.queries")
+local log = require('dotnet.log')
 
 local M = {}
 

@@ -1,7 +1,7 @@
-local log = require('nvim-dotnet.log')
-local queries = require('nvim-dotnet.queries')
-local global = require('nvim-dotnet.global')
-local utils = require('nvim-dotnet.utils')
+local log = require('dotnet.log')
+local queries = require('dotnet.queries')
+local global = require('dotnet.global')
+local utils = require('dotnet.utils')
 
 local M = {}
 

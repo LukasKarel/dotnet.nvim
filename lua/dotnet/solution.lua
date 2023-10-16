@@ -1,7 +1,7 @@
-local utils = require('nvim-dotnet.utils')
-local log = require('nvim-dotnet.log')
-local global = require('nvim-dotnet.global')
-local projectns = require('nvim-dotnet.projects')
+local utils = require('dotnet.utils')
+local log = require('dotnet.log')
+local global = require('dotnet.global')
+local projectns = require('dotnet.projects')
 
 local extract_projects = function(solution_file)
 	local file_content = utils.readFile(solution_file)
